@@ -46,7 +46,7 @@ h1 {
     letter-spacing: 2px;
     color: #ff6600;
     border-radius: 37%;
-    background-color: hsl(351, 63%, 89%);
+    background-color: #f5d1d7;
     margin-right: 50px;
     padding-left: 10%;
 }
@@ -130,3 +130,9 @@ footer {
         margin-top: 101px;
     }
 }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 4px solid #e2435d;
+    }
+}    
