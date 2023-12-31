@@ -1,5 +1,8 @@
-/* Asterisk wilcard selector to override default styles added by the browser */
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&family=Turret+Road:wght@200;300;400;500&display=swap');
 
+
+/* Asterisk wilcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +16,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -21,11 +25,14 @@ body {
 header {
     background-color: lightcoral;
 }
+
 /*Main content*/
 main {
     background-color: lightblue;
+    /*Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
 }
+
 /*Footer*/
 footer {
     background-color: orange;
