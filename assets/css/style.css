@@ -45,6 +45,10 @@ h1 {
     text-decoration: uppercase;
     letter-spacing: 2px;
     color: #ff6600;
+    border-radius: 37%;
+    background-color: hsl(351, 63%, 89%);
+    margin-right: 50px;
+    padding-left: 10%;
 }
 #menu {
     font-size: 110%;
@@ -114,5 +118,15 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 50px;
+        margin: 0 0.3rem;
+    }
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 101px;
     }
 }
