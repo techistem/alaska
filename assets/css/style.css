@@ -25,7 +25,9 @@ body {
 header {
     background-color: lightcoral;
 }
-
+h1 {
+    font-family: 'Turret Road', sans-serif;
+}
 /*Main content*/
 main {
     background-color: lightblue;
