@@ -24,7 +24,7 @@ body {
 /*Header*/
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 2rem 0.5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -32,35 +32,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 
 }
+
 h1 {
     font-family: 'Turret Road', sans-serif;
     text-decoration: uppercase;
     letter-spacing: 2px;
     color: #ff6600;
-    border-radius: 37%;
+    border-radius: 30%;
     background-color: #f5d1d7;
-    margin-right: 50px;
-    padding-left: 10%;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
-menu > li {
+
+menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -92,16 +94,21 @@ main {
     background-color: lightblue;
     /*Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 47px;
 }
 
 /*Footer*/
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -109,30 +116,40 @@ footer {
         box-shadow: none;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 2rem;
         letter-spacing: 2.1px;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 280%;
         line-height: 50px;
         margin: 0 0.3rem;
+        padding: 0.5rem 1rem;
     }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 101px;
+        margin-top: 125px;
+
     }
 }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 4px solid #e2435d;
+        border-bottom: 2px solid #e2435d;
+        color: #ff6600;
+
     }
-}    
+}
