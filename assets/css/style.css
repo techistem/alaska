@@ -143,6 +143,17 @@ main {
 
 
 
+/* Activities page */
+#activities-container img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+#photos img {
+    width: 100%;
+    height: auto;
+}
 
 /*Footer*/
 #social-networks {
