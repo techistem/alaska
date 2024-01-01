@@ -47,6 +47,7 @@ h1 {
     color: #ff6600;
     border-radius: 30%;
     background-color: #f5d1d7;
+   
 }
 
 #menu {
@@ -120,7 +121,10 @@ main {
 #cover-text>h2 {
     color: rgb(0, 100, 0);
 }
+.text-center {
 
+
+}
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -128,6 +132,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color:  #f5d1d7;
 }
 
 #social-networks i {
