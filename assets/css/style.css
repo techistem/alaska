@@ -47,6 +47,12 @@ h1 {
     color: #ff6600;
     border-radius: 30%;
     background-color: #f5d1d7;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   
    
 }
 
@@ -102,6 +108,7 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/backgrnd.jpg) no-repeat center center/cover;
+    position: relative;
 }
 
 #cover-text {
@@ -121,10 +128,20 @@ main {
 #cover-text>h2 {
     color: rgb(0, 100, 0);
 }
-.text-center {
 
 
-}
+/*.text-center {
+
+
+}*/
+
+
+
+/* map */
+
+
+
+
 /*Footer*/
 #social-networks {
     text-align: center;
