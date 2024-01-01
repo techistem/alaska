@@ -109,6 +109,7 @@ main {
     width: 100%;
     background: url(../images/backgrnd.jpg) no-repeat center center/cover;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #cover-text {
@@ -130,10 +131,11 @@ main {
 }
 
 
-/*.text-center {
+.text-center {
+    margin: 20px 0;
 
 
-}*/
+}
 
 
 
@@ -183,7 +185,7 @@ main {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 50px;
         margin: 0 0.3rem;
         padding: 0.5rem 1rem;
