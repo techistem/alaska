@@ -34,18 +34,53 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="advice.html">Advice</a></li>
-                <li><a href="contact-us.html" class="active">Contact Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!--Main content-->
     <main>
-       
+        <!-- Contact us section -->
+        <section class="contact-section">
+            <form method="get" action="contact-confirmation.html" class="contactus-form">
+                <h2>Tell us about your trip</h2>
+
+                <label for="fname">First Name*</label>
+                <input type="text" id="fname" class="text-input" name="first_name" required>
+
+                <label for="lname">Last Name*</label>
+                <input type="text" id="lname" class="text-input" name="last_name" required>
+
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" class="text-input" name="email_address" required>
+
+                <!-- Trip duration options -->
+                <label for="trip-duration">Select trip duration*</label>
+                <select id="trip-duration" name="trip-duration">
+                    <option value="3 days">3 days or less</option>
+                    <option value="4 days">4 days</option>
+                    <option value="5 days">5 days</option>
+                    <option value="6 days">6 days</option>
+                    <option value="7 days or more">7 days or more</option>
+                </select>
 
 
+                <h3>When would you like to visit?*</h3>
+
+                <label for="summer">Summer</label>
+                <input type="radio" id="summer" name="season_preference" value="summer" required>
+
+                <label for="winter">Winter</label>
+                <input type="radio" id="winter" name="season_preference" value="winter">
 
 
+                <label for="details">Give us the details*</label>
+                <textarea id="text" name="details" rows="4" cols="50"></textarea>
+
+                <input type="send" value="SEND" class="send-button">
+            </form>
+        </section>
 
 
 
