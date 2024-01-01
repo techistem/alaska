@@ -95,11 +95,30 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
     background: url(../images/backgrnd.jpg) no-repeat center center/cover;
+}
+
+#cover-text {
+    /* Final rgba values sets the opacity so it is semi-transparent */
+    background-color: rgb(224, 255, 255, .7);
+    font-size: 120%;
+    position: absolute;
+    bottom: 90px;
+    width: 80%;
+    min-height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+
+}
+
+#cover-text>h2 {
+    color: rgb(0, 100, 0);
 }
 
 /*Footer*/
@@ -110,11 +129,13 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #ff6600;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -150,6 +171,14 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 125px;
+
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        left: 10px;
+        bottom: 20px;
 
     }
 }
