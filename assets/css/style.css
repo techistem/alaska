@@ -171,6 +171,14 @@ main {
     color: #ff6600;
 }
 
+/* Media query: large or landscape (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -216,6 +224,10 @@ main {
         bottom: 20px;
 
     }
+    /* Activities*/
+    #photos {
+        column-count: 2;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -225,4 +237,9 @@ main {
         color: #ff6600;
 
     }
+    /* Activities*/
+    #photos {
+        column-count: 2;
+    }
 }
+
