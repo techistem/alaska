@@ -171,6 +171,90 @@ main {
     color: #ff6600;
 }
 
+/* Contact us section */
+
+.contact-section {
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactus-form {
+    position: absolute;
+    background-color: rgba(246, 196, 196, 0.5);
+    text-align: left;
+    color: green
+}
+
+h2 {
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.text-input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
 /* Media query: large or landscape (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
