@@ -107,7 +107,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/backgrnd.jpg) no-repeat center center/cover;
+    background: url('../images/backgrnd.jpg') no-repeat center center/cover;
     position: relative;
     margin-bottom: 20px;
 }
@@ -153,7 +153,7 @@ main {
 
 /* Advice image */
 #circle-cover-bg {
-    background: url(../images/advise.jpg) no-repeat top center /cover;
+    background: url('../images/advise.jpg') no-repeat top center /cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
