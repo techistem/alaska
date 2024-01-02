@@ -52,8 +52,8 @@ h1 {
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-   
-   
+
+
 }
 
 #menu {
@@ -143,13 +143,14 @@ main {
 #activities-container img {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; 
+    gap: 10px;
 }
 
 #photos img {
     width: 100%;
     height: auto;
 }
+
 /* Advice image */
 #circle-cover-bg {
     background: url(../images/advise.jpg) no-repeat top center /cover;
@@ -162,11 +163,8 @@ main {
 
 }
 
-#advice-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 /*Footer*/
 #social-networks {
@@ -175,7 +173,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:  #f5d1d7;
+    background-color: #f5d1d7;
 }
 
 #social-networks i {
@@ -287,24 +285,29 @@ h3 {
     }
 
     /* Advice section */
-    #advice-one,
-    #advice-two {
+
+    .advice {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advice-one,
+    .advice-two,
+    .advice-three {
         display: flex;
         flex-direction: column;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
-
-    #advice-one > div,
-    #advice-two > div {
-        width: 75%;
-
-    }
-
-    #advice-two > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
+.advice-image {
+    display: flex;
+    
+}
+   
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -319,6 +322,7 @@ h3 {
         bottom: 20px;
 
     }
+
     /* Activities*/
     #photos {
         column-count: 2;
@@ -332,6 +336,7 @@ h3 {
         color: #ff6600;
 
     }
+
     /* Activities*/
     #photos {
         column-count: 2;
@@ -339,28 +344,30 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
+
     /* Advice section */
     #tips {
         display: flex;
         flex-direction: row;
     }
 
-    #tips > div {
+    #tips>div {
         flex: 1;
     }
-    #advice-image {
-        order: 0;
-    }
+
+    
+
     #advice-two {
         order: 1;
     }
-    #advice-two > div {
+
+    #advice-two>div {
         align-self: flex-start;
     }
-    #advice-one > div {
+
+    #advice-one>div {
         align-self: flex-end;
 
     }
 
 }
-    
