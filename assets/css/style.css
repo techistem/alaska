@@ -42,7 +42,7 @@ header a {
 
 h1 {
     font-family: 'Turret Road', sans-serif;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #ff6600;
     border-radius: 30%;
