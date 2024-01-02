@@ -245,27 +245,6 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media queries */
 
 /* Media query: large or landscape (576px and up) */
@@ -307,6 +286,25 @@ h3 {
         padding: 0.5rem 1rem;
     }
 
+    /* Advice section */
+    #advice-one,
+    #advice-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #advice-one > div,
+    #advice-two > div {
+        width: 75%;
+
+    }
+
+    #advice-two > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -340,3 +338,29 @@ h3 {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    /* Advice section */
+    #tips {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tips > div {
+        flex: 1;
+    }
+    #advice-image {
+        order: 0;
+    }
+    #advice-two {
+        order: 1;
+    }
+    #advice-two > div {
+        align-self: flex-start;
+    }
+    #advice-one > div {
+        align-self: flex-end;
+
+    }
+
+}
+    
