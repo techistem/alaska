@@ -34,7 +34,7 @@
                 <li><a href="index.html" aria-label="Home">Home</a></li>
                 <li><a href="activities.html" aria-label="Activities">Activities</a></li>
                 <li><a href="advice.html" aria-label="Advice">Advice</a></li>
-                <li><a href="contact.html" class="active" aria-label="Contact">Contact Us</a></li>
+                <li><a href="contact.html" class="active" aria-label="Contact Us">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -53,7 +53,7 @@
                 <input type="text" id="lname" class="text-input" name="last_name" required>
 
                 <label for="email">Email Address*</label>
-                <input type="email" id="email" class="text-input" name="email_address" required>
+                <input type="email" id="email" class="text-input" name="email_address"  title="must be a valid email address" required>
 
                 <!-- Trip duration options -->
                 <label for="trip-duration">Select trip duration*</label>
@@ -72,20 +72,16 @@
                 <input type="radio" id="summer" name="season_preference" value="summer" required>
 
                 <label for="winter">Winter</label>
-                <input type="radio" id="winter" name="season_preference" value="winter">
+                <input type="radio" id="winter" name="season_preference" value="winter" required>
 
 
-                <label for="details">Give us the details*</label>
+                <label for="details">Give us the details</label>
                 <textarea id="text" name="details" rows="4" cols="50"></textarea>
                 
+                <a href="contact-confirmation.html" value="SEND" class="send-button" aria-label="contact-confirmation">SEND</a>
 
-                <!--<input type="send" value="SEND" class="send-button">-->
-                <a href="contact-confirmation.html" class="send-button" aria-label="contact-confirmation">Send</a>
             </form>
         </section>
-
-
-
 
     </main>
     <!--Footer-->
