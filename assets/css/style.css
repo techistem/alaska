@@ -147,7 +147,7 @@ main {
 }
 
 /* Advice image */
-#circle-cover-bg {
+.circle-cover-bg {
     background: url('../images/advise.jpg') no-repeat top center /cover;
     height: 90vw;
     width: 90vw;
@@ -241,6 +241,7 @@ h3 {
     background-color: #0056b3;
 }
 
+
 /* Advice section */
 
 .advice {
@@ -266,6 +267,19 @@ h3 {
 
 }
 
+
+
+
+
+
+
+
+   
+
+
+
+
+
 /* Media queries */
 
 /* Media query: large or landscape (576px and up) */
@@ -275,6 +289,7 @@ h3 {
         column-gap: 0;
     }
 }
+    
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -344,31 +359,9 @@ h3 {
     }
 }
 
-@media screen and (min-width: 1200px) {
-
-    /* Advice section */
-    #tips {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #tips>div {
-        flex: 1;
-    }
 
 
 
-    #advice-two {
-        order: 1;
-    }
 
-    #advice-two>div {
-        align-self: flex-start;
-    }
+    
 
-    #advice-one>div {
-        align-self: flex-end;
-
-    }
-
-}
