@@ -37,7 +37,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 h1 {
@@ -122,8 +121,6 @@ main {
     min-height: 50px;
     padding-top: 10px;
     padding-left: 20px;
-
-
 }
 
 #cover-text>h2 {
@@ -186,18 +183,21 @@ main {
     background-image: url('../images/contact.jpg');
     background-size: cover;
     background-position: center;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 750px;
+    margin-top: 0.5rem;
+
+
+
 }
 
 .contactus-form {
+    margin: 75px 10% 0 0;
     position: absolute;
-    background-color: rgba(246, 196, 196, 0.5);
+    background-color:  rgb(245, 209, 215, 0.6);
     text-align: left;
-    color: green
+    max-width: 400px;
+    left: 10%;
+    padding: 10px;
 }
 
 h2 {
@@ -219,6 +219,7 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
 }
 
 h3 {
@@ -229,7 +230,7 @@ h3 {
 .send-button {
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 16px;
     border: none;
     border-radius: 4px;
@@ -259,8 +260,9 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
 .advice-image {
-display: flex;
+    display: flex;
 
 }
 
@@ -273,6 +275,7 @@ display: flex;
         column-gap: 0;
     }
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -305,7 +308,7 @@ display: flex;
         padding: 0.5rem 1rem;
     }
 
-    
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -353,7 +356,7 @@ display: flex;
         flex: 1;
     }
 
-    
+
 
     #advice-two {
         order: 1;
