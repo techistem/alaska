@@ -1,4 +1,5 @@
-###General Information
+### General Information
+
 This website was established to help those who want to explore the unique geography of Alaska, 
 which is pristine and protected by wildlife. This is a project for a course in Html and CSS for Code Institute by Istem Karakas.
 
