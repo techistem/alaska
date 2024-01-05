@@ -151,17 +151,25 @@ main {
 }
 
 /* Advice image */
-.circle-cover-bg {
-    background: url('../images/advise.jpg') no-repeat top center /cover;
+.circle-cover-bg-1 {
+    background: url('../images/advise1.jpg') no-repeat top center /cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-
 }
 
+.circle-cover-bg-2 {
+    background: url('../images/advise2.jpg') no-repeat top center /cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 
 
