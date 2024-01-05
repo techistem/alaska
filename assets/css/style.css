@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+   
     /*Generic project styles*/
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
@@ -133,8 +134,6 @@ main {
 
 .text-center {
     margin: 20px 0;
-
-
 }
 
 
@@ -152,7 +151,7 @@ main {
 
 /* Advice image */
 .circle-cover-bg-1 {
-    background: url('../images/advise1.jpg') no-repeat top center /cover;
+    background: url('../images/advice1.jpg') no-repeat top center /cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -160,9 +159,10 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
 
 .circle-cover-bg-2 {
-    background: url('../images/advise2.jpg') no-repeat top center /cover;
+    background: url('../images/advice2.jpg') no-repeat center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -171,7 +171,15 @@ main {
     max-height: 300px;
 }
 
-
+.circle-cover-bg-3 {
+    background: url('../images/advice3.jpg') no-repeat top center /cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /*Footer*/
 #social-networks {
@@ -197,9 +205,6 @@ main {
     background-position: center;
     height: 750px;
     margin-top: 0.5rem;
-
-
-
 }
 
 .contactus-form {
@@ -214,12 +219,18 @@ main {
 
 h2 {
     color: #007bff;
+    margin: 2px;
+    padding: 15px;
 }
 
 label {
-    display: block;
+    display: inline-block;
+    min-width: 70px;
     margin-bottom: 8px;
     color: #333;
+}
+input[type="radio"] {
+    margin-right: 20px;
 }
 
 .text-input,
@@ -231,7 +242,6 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
 }
 
 h3 {
@@ -274,7 +284,9 @@ h3 {
     align-items: center;
 }
 
-.advice-image {
+.advice-image-1,
+.advice-image-2,
+.advice-image-3 {
     display: flex;
 
 }
