@@ -21,7 +21,6 @@ body {
 
 }
 
-
 /*Header*/
 header {
     background-color: #ffffff;
@@ -51,8 +50,9 @@ h1 {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
+    font-weight: bold;
+        }
+
 
 .logo {
     height: 100px;
@@ -106,6 +106,10 @@ main {
     margin-top: 47px;
 }
 
+.First-paragraph {
+    padding: 0px 15px;
+}
+
 /* Hero section */
 #hero {
     height: 600px;
@@ -149,6 +153,35 @@ main {
     height: auto;
 }
 
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+.container9 {
+    position: relative;
+}
+
+.container1-p,
+.container2-p,
+.container3-p,
+.container4-p,
+.container5-p,
+.container6-p,
+.container7-p,
+.container8-p,
+.container9-p  {
+    position: absolute;
+    background-color: #ff6600;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 15px;
+}
+
 /* Advice image */
 .circle-cover-bg-1 {
     background: url('../images/advice1.jpg') no-repeat top center /cover;
@@ -180,6 +213,8 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
+
 
 /*Footer*/
 #social-networks {
@@ -224,10 +259,14 @@ h2 {
 }
 
 label {
-    display: inline-block;
+    display: inline;
     min-width: 70px;
     margin-bottom: 8px;
     color: #333;
+}
+
+.details-label {
+    margin-top: 15px;
 }
 input[type="radio"] {
     margin-right: 20px;
@@ -242,11 +281,6 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-h3 {
-    margin-top: 20px;
-    color: #333;
 }
 
 .send-button {
@@ -265,6 +299,62 @@ h3 {
 
 
 /* Advice section */
+
+.advice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-one,
+.advice-two,
+.advice-three {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-one p:nth-of-type(1),
+.advice-two p:nth-of-type(1),
+.advice-three p:nth-of-type(1) {
+    margin-bottom: 15px;
+}
+
+.advice-one p, 
+.advice-two p, 
+.advice-three p {
+    padding: 0px 15px;
+}
+
+.advice-one h3, 
+.advice-two h3,
+.advice-three h3 {
+   margin: 0px 15px;
+
+
+ }
+
+
+
+.advice-image-1,
+.advice-image-2,
+.advice-image-3 {
+    display: flex;
+}
+
+/* Media queries */
+
+/* Media query: large or landscape (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+    /* Advice section */
 
 .advice {
     width: 100%;
@@ -288,32 +378,8 @@ h3 {
 .advice-image-2,
 .advice-image-3 {
     display: flex;
-
 }
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-/* Media queries */
-
-/* Media query: large or landscape (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
 }
-    
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -340,9 +406,6 @@ h3 {
         display: none;
     }
 
-   
-
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -362,7 +425,36 @@ h3 {
     #photos {
         column-count: 2;
     }
+
+
+    /* Advice section */
+
+.advice {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.advice-one,
+.advice-two,
+.advice-three {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-image-1,
+.advice-image-2,
+.advice-image-3 {
+    display: flex;
+
+}
+}
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
