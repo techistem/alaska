@@ -103,7 +103,7 @@ nav {
 main {
     /*Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 100px;
 }
 
 .First-paragraph {
@@ -151,6 +151,7 @@ main {
 #photos img {
     width: 100%;
     height: auto;
+    margin-top: 40px;
 }
 
 
@@ -176,7 +177,7 @@ main {
 .container8-p,
 .container9-p  {
     position: absolute;
-    background-color: #ff6600;
+    background-color: rgb(234, 255, 0);
     bottom: 20px;
     left: 20px;
     padding: 10px 15px;
