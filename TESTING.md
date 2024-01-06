@@ -8,17 +8,25 @@
 
     ![Home Page HTML Validator](assets/documentation/w3-validator-home-page.png)
     
-  #### Gallery Page
+  #### Activities Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+    ![Activities Page HTML Validator](assets/documentation/w3-validator-activities-page.png)
 
-  #### Contact Page
+  #### Advice Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+    ![Advice Page HTML Validator](assets/documentation/w3-validator-advice-page.png)
 
-  #### Response Page
+  #### Contact Us Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    ![Contact Us Page HTML Validator](assets/documentation/w3-validator-contact-us-page.png)
+
+  ### CSS
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+  
+  ![CSS Validator](w3-css-validator)
+
+  
+
