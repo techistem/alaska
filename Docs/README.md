@@ -90,6 +90,11 @@ budget and interests.
     - The main font used in the project is the Roboto font from googlefonts.
     - The fallback font is sans-serif. 
  ---
+## Individual page elements
+## Home Hero Section Content:
+   - Since this section is the first time the customer sees the site, there is a magnificent view of Alaska and a brief description.
+
+   ![Wireframe of the home hero section](/Docs/wireframes/hero-section.png)
 
 ## Wireframes (Balsamiq)
 
@@ -97,7 +102,7 @@ I created the wireframes for this site with Balsamiq. All wireframes can be foun
 The wireframes should not be considered finished product, but as a tool I used as inspiration when creating the website.
 
 
-![Wireframe of the website on a desktop](/Docs/wireframes/index-balsamic.png)
+![Wireframe of the website on a desktop](/Docs/wireframes/index-balsamiq.png)
 ![Wireframe of the website on a phone](/Docs/wireframes/index-phone-balsamic1.png)
 ---
 
@@ -205,17 +210,6 @@ A different photograph of Alaska is used as the background on this page. Overlai
 ## Final Result
 The final result is a website that is responsive on all tested devices and browsers. The website is validated with W3C validator. The website works on all tested devices and browsers.
 - Here is a link to the website: (https://techistem.github.io/alaska2/)
-### Below is captured screenshots of the website on Desktop:
-All screenshots are taken from Chrome Dev tools.
-![Image of my index page](/)
-![Image of my gallery page]()
-![Image of my gallery page](/)
-![Image of my sign-up page](/)
-![Image of my about page](/)
-
-### Below is captured screenshots of the website on a phone sized screen (put together in balsamiq to be able to show all next to each other):
-![Image of my index page](/assets/balsamiq/all-phone-2.JPG)
-
 ---
 ## Deployment
 - This website was developed using Gitpod which I used to commit and push to GitHub using the terminal in GitPod. 
