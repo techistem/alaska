@@ -26,7 +26,7 @@
   ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
   
-  ![CSS Validator](w3-css-validator)
+  ![CSS Validator](assets/documentation/w3-css-validator.png)
 
-  
+
 
