@@ -208,11 +208,63 @@ The final result is a website that is responsive on all tested devices and brows
 - Here is a link to the website: (https://techistem.github.io/alaska2/)
 ### Below is captured screenshots of the website on Desktop:
 All screenshots are taken from Chrome Dev tools.
-![Image of my index page](/assets/balsamiq/index-fullsize.png)
-![Image of my gallery page](/assets/balsamiq/activities-fullsize.png)
-![Image of my gallery page](/assets/balsamiq/advice-fullsize.png)
-![Image of my sign-up page](/assets/balsamiq/contact-us-fullsize.png)
-![Image of my about page](/assets/balsamiq/confirmation-fullsize.png)
+![Image of my index page](/)
+![Image of my gallery page]()
+![Image of my gallery page](/)
+![Image of my sign-up page](/)
+![Image of my about page](/)
+
+### Below is captured screenshots of the website on a phone sized screen (put together in balsamiq to be able to show all next to each other):
+![Image of my index page](/assets/balsamiq/all-phone-2.JPG)
+
+---
+## Deployment
+- This website was developed using Gitpod which I used to commit and push to GitHub using the terminal in GitPod. 
+### Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+- Log in to GitHub and locate the GitHub Repository.
+- At the top of the Repository, locate the Settings button on the menu.
+- Under Source, click the dropdown called None and select Main Branch.
+- The page will refresh automatically and generate a link to your website.
+---
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
+### Making a Local Clone
+- Log in to GitHub and locate the GitHub Repository
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+- Press Enter. Your local clone will be created.
+---
+### Images:
+- The images belong to the two sites I mentioned below.
+    - Link: (https://pixabay.com/)
+    - Link: (https://www.pexels.com/)
+
+- The fishing charters image is my own.
+
+### Company Logo:
+- The logo is my own design. I designed it on Canva.
+    - Link: (https://www.canva.com/) 
+
+### Fonts:
+- I used google fonts as my main font:
+    - Link (https://fonts.google.com/)
+
+
+### Readme.md file:
+- I used the markdown cheat-sheet to help me with the readme.md file.
+    - Link: (https://www.markdownguide.org/cheat-sheet/)
+
+- I got help with the readme file from CodeInstitutes samplereadme.
+    - Link : (https://github.com/code-institute-solutions/samplereadme)
+---
 
 
 
