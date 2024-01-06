@@ -152,5 +152,69 @@ A different photograph of Alaska is used as the background on this page. Overlai
 - A "Confirmation page" thanks the user for signing up.
 
 *An asterisk indicates a required field
+---
+## Testing
+### Links, Images, Icons and Buttons:
+#### Links:
+- All the links are working an will take you to the correct page.
+#### Icons:
+- All the external links are working and will open a new tab and take you to the correct page. 
+- All the internal links are working and will take you to the correct page. 
+#### Buttons:
+- All the buttons are working and will take you to the correct page.
+--- 
+## Code validation
+- All code on the site has been validated, both HTML and CSS, by use of the W3C validator. 
+### HTML
+- W3C - HTML validator: (https://validator.w3.org/)
+    - W3C Validator for HTML shows no errors on any page.
+
+### CSS
+- W3C - CSS Validator: (https://jigsaw.w3.org/css-validator/)
+    - W3C Validator for CSS shows no errors in the style.css file.
+
+## Testing on different browsers
+- The website is tested on different devices. The website is responsive on all tested devices. 
+- The website is tested on different browsers. The website is working on all tested browsers.
+- Tested browsers: Chrome, Edge, Safari & Firefox.
+
+## Device testing on different devices
+- The website is working and is responsive on all tested devices:
+    - iPhone SE
+    - iPhone XR
+    - iPhone 12 pro/14 pro
+    - iphone 15 pro max
+    - iPad
+    - iPad Air
+    - iPad Mini
+    - Pixel 7
+    - iPad pro
+    - Samsung Galaxy S8+
+    - Samsung Galaxy S20 Ultra
+    - Surface Pro 7
+    - Surface Duo
+    - Samsung Galaxy Fold
+    - Samsung Galaxy A51/71
+    - Nest Hub
+ ## Testing tools used
+- I have tested the site in Chrome Dev tools. 
+- I have tested the site on different browsers using my PC.
+- I have tested the site using (https://www.browserstack.com/).
+- I have tested the site on my phone (Nothing phone 1) using chrome.
+## Commit history
+- The commit history for this website can be found on Github: (https://github.com/techistem/alaska2/commits/main/)
+## Final Result
+The final result is a website that is responsive on all tested devices and browsers. The website is validated with W3C validator. The website works on all tested devices and browsers.
+- Here is a link to the website: (https://techistem.github.io/alaska2/)
+### Below is captured screenshots of the website on Desktop:
+All screenshots are taken from Chrome Dev tools.
+![Image of my index page](/assets/balsamiq/index-fullsize.png)
+![Image of my gallery page](/assets/balsamiq/activities-fullsize.png)
+![Image of my gallery page](/assets/balsamiq/advice-fullsize.png)
+![Image of my sign-up page](/assets/balsamiq/contact-us-fullsize.png)
+![Image of my about page](/assets/balsamiq/confirmation-fullsize.png)
+
+
+
 
 
