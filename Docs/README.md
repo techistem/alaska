@@ -10,7 +10,7 @@ adventures.
 Link to the website: [North Travellers](https://techistem.github.io/alaska2/)
 
 
-![](assets/documentation/responsive-image.png)
+![Responsive Image](assets/documentation/responsive-image.png)
 
 ## Table of Contents
 ---
