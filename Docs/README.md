@@ -150,7 +150,7 @@ A different photograph of Alaska is used as the background on this page. Overlai
 - When the user would like to visit to go (choose Summer or Winter)*
 - Any additional information the user would like to give
 - A "Confirmation page" thanks the user for signing up.
- -*An asterisk indicates a required field
+- *An asterisk indicates a required field
 ---
 ## Testing
 ### Links, Images, Icons and Buttons:
