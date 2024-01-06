@@ -28,5 +28,25 @@
   
   ![CSS Validator](assets/documentation/w3-css-validator.png)
 
+## LightHouse report
 
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    
+  ### Home page
+
+  ![Home Page Lighthouse](assets/documentation/Lighthouse-home-page.png)
+
+  ### Activities page
+
+  ![Activities Page Lighthouse](assets/documentation/Lighthouse-activities-page.png)
+
+  ### Advise page
+
+  ![Advise Page Lighthouse](assets/documentation/Lighthouse-advice-page.pn)
+
+  ### Contact Us page
+
+  ![Contact Us Page Lighthouse](assets/documentation/Lighthouse-contact-us-page.png)
+
+---
 
