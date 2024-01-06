@@ -133,3 +133,10 @@ The wireframes should not be considered finished product, but as a tool I used a
 - Just below the logo is a photo showing Alaska's unique glaciers and mountains.  The words "Explore Alaska" are overlaid onto the photo. 
 - Below the photo, the service offered by the website is introduced. In this paragraph, clicking on the word "activities" directs users to the "Activities" page. 
 - There is a map showing where Alaska is located. Below the map are links to social media platforms. 
+## Activities Page  
+- The Activities page starts with a brief description, with photos of  activities that visitors can do in Alaska. 
+- The Activities page is responsive: the size of the photo depends on the user's screen.  
+- The activities page is the page that contains photos and brief tour names of the activities that visitors can do in Alaska.
+- At the bottom of the Activities section, there is a sentence that can direct the visitor to the contact us page.
+- The Activities page has a footer identical to that on the home page.
+
