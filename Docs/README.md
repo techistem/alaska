@@ -127,3 +127,9 @@ The wireframes should not be considered finished product, but as a tool I used a
 
 - ### Footer on a phone:
     ![image of the header on a desktop](/Docs/wireframes/footer-phone.png)
+## Home Page
+- The home page, or index page, is the first page a user sees when they visit the website. In the upper left corner, there is a logo that says "North Travellers", designed with an outline of Alaska. 
+- This is true for all pages where the logo is displayed. There is a menu next to the logo, which is responsive on different screens. 
+- Just below the logo is a photo showing Alaska's unique glaciers and mountains.  The words "Explore Alaska" are overlaid onto the photo. 
+- Below the photo, the service offered by the website is introduced. In this paragraph, clicking on the word "activities" directs users to the "Activities" page. 
+- There is a map showing where Alaska is located. Below the map are links to social media platforms. 
