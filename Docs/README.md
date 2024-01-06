@@ -102,7 +102,7 @@ I created the wireframes for this site with Balsamiq. All wireframes can be foun
 The wireframes should not be considered finished product, but as a tool I used as inspiration when creating the website.
 
 
-![Wireframe of the website on a desktop](/Docs/wireframes/index-balsamiq.png)
+![Wireframe of the website on a desktop](/Docs/wireframes/index-balsamic.png)
 ![Wireframe of the website on a phone](/Docs/wireframes/index-phone-balsamic1.png)
 ---
 
