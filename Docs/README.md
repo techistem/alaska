@@ -92,9 +92,10 @@ budget and interests.
  ---
 ## Individual page elements
 ## Home Hero Section Content:
-   - Since this section is the first time the customer sees the site, there is a magnificent view of Alaska and a brief description.
+   - Since this section is the first time the customer sees the site, there is a magnificent view of Alaska and a brief description and a map of Alaska.
 
    ![Wireframe of the home hero section](/Docs/wireframes/hero-section.png)
+   ![Wireframe of the home hero section](/Docs/wireframes/map-section.png)
 
 ## Wireframes (Balsamiq)
 
