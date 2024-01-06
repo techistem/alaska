@@ -109,3 +109,5 @@ The wireframes should not be considered finished product, but as a tool I used a
     - The header is the same on all devices above 490px. Under 769px the header becomes a column instead. 
 - ### Header on desktop:
 ![image of the header on a desktop](/Docs/wireframes/header-desktop.png)
+ - ### Header on a phone:
+    ![image of the header on a desktop](/Docs/wireframes/header-phone.png)
