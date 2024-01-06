@@ -139,4 +139,18 @@ The wireframes should not be considered finished product, but as a tool I used a
 - The activities page is the page that contains photos and brief tour names of the activities that visitors can do in Alaska.
 - At the bottom of the Activities section, there is a sentence that can direct the visitor to the contact us page.
 - The Activities page has a footer identical to that on the home page.
+## Advice Page  
+This section contains brief and important advice for those planning to travel to  Alaska. There are three photographs, which are responsive. 
+## Contact us Page  
+A different photograph of Alaska is used as the background on this page. Overlaid on the photo is a form that allows users to get in touch. The form asks for: 
+- First Name*
+- Last Name* 
+- Email address*
+- Trip duration*
+- When the user would like to visit to go (choose Summer or Winter)*
+- Any additional information the user would like to give
+- A "Confirmation page" thanks the user for signing up.
+
+*An asterisk indicates a required field
+
 
