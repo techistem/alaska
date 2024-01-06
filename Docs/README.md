@@ -53,6 +53,17 @@ living abroad.
 
 ---
 
+## User Stories 
+
+- As a user, I want to be able to navigate the website easily.
+- As a user, I want to be able to read the website easily.
+-As a user, I want to be able to contact the website owner easily.
+- As a user, I want to be able to communicate easily with the organisation.
+- As a user, I want to easily understand the content and purpose of the
+site.
+- As a user, I want to be able to plan the best holiday according to my
+budget and interests.
+
 ## Colors
 - Text color used:
     - #3a3a3a
@@ -61,8 +72,6 @@ living abroad.
     - #007bff
     - #333
     - #ffffff
-
-
 - Background color used:
     - Whitesmoke (#F5F5F5)
     - #f5d1d7
@@ -71,7 +80,6 @@ living abroad.
     - rgb(245, 209, 215, 0.6)
     - #0056b3
     - #007bff
-
 - Border color used:
     - #ccc
     - #e2435d
@@ -89,6 +97,15 @@ I created the wireframes for this site with Balsamiq. All wireframes can be foun
 The wireframes should not be considered finished product, but as a tool I used as inspiration when creating the website.
 
 
-![Wireframe of the website on a desktop](/assets/docs/images/index-balsamic.png)
-![Wireframe of the website on a phone](/assets/docs/images/index-phone-balsamic1.png)
+![Wireframe of the website on a desktop](Docs/wireframes/index-balsamic.png)
+![Wireframe of the website on a phone](Docs/wireframes/index-phone-balsamic1.png)
 ---
+
+## General features
+- The website is responsive on all devices.
+- The website is using the same color and font throughout the entire site to make it easy to read and understand, no matter where you are. 
+- ### Header
+    - The header is the same on all pages.
+    - The header is the same on all devices above 490px. Under 769px the header becomes a column instead. 
+- ### Header on desktop:
+![image of the header on a desktop](/Docs/wireframes/header-desktop.png)
