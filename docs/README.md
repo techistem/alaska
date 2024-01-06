@@ -1,14 +1,16 @@
 ## General Information
+---
 
-This website was established to help those who want to explore the unique geography of Alaska, 
-which is pristine and protected by wildlife. This is a project for a course in Html and CSS for Code Institute by Istem Karakas.
+This website was established to help those who want to explore the unique geography of Alaska, its pristine landscapes and iconic wildlife. This is a project for
+a course in Html and CSS for the Code Institute by Istem Karakas.
 
-The purpose of this website is to promote myself and my skills in Html and CSS. The website targets all kinds of people who want to explore
-new places and go on adventures.
+The purpose of this website is to demonstrate my skills in Html and CSS. The target audience is anyone who wishes to explore new places and have exciting
+adventures.
 
-Link to the website: [North Travelers](https://techistem.github.io/alaska2/)
+Link to the website: [North Travellers](https://techistem.github.io/alaska2/)
 
-![The first picture of my website featuring Alaska]()
+
+![The first picture of my website featuring Alaska](assets/docs/images)
 
 ## Table of Contents
 ---
@@ -41,4 +43,37 @@ Link to the website: [North Travelers](https://techistem.github.io/alaska2/)
 
 ## Project Goals
 
+- Create a website that showcases my skills in Html and CSS.
+- Create a website that is responsive on all devices.
+- Create a website that is easy to navigate and looks elegant.
+- Create a website that is easy to read and understand.
+- Create a website where you can sign up for travel advice.
+- Highlight to students the opportunity to learn a language by traveling, working and
+living abroad.
+
+---
+
+## Colors
+- Text color used:
+    - #3a3a3a
+    - rgb(0, 100, 0)
+    - #ff6600
+    - #007bff
+    - #333
+    - #ffffff
+
+
+- Background color used:
+    - Whitesmoke (#F5F5F5)
+    - #f5d1d7
+    - gb(224, 255, 255, .7)
+    - rgb(234, 255, 0)
+    - rgb(245, 209, 215, 0.6)
+    - #0056b3
+    - #007bff
+
+- Border color used:
+    - #ccc
+    - #e2435d
+--- 
 

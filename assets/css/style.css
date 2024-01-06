@@ -39,15 +39,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Turret Road', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ff6600;
-    border-radius: 30%;
-    background-color: #f5d1d7;
-}
-
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
