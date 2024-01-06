@@ -90,13 +90,6 @@ budget and interests.
     - The main font used in the project is the Roboto font from googlefonts.
     - The fallback font is sans-serif. 
  ---
-## Individual page elements
-## Home Hero Section Content:
-   - Since this section is the first time the customer sees the site, there is a magnificent view of Alaska and a brief description and a map of Alaska.
-
-   ![Wireframe of the home hero section](/Docs/wireframes/hero-section.png)
-   ![Wireframe of the home hero section](/Docs/wireframes/map-section.png)
-
 ## Wireframes (Balsamiq)
 
 I created the wireframes for this site with Balsamiq. All wireframes can be found in the folder called [Docs](https://github.com/techistem/alaska2/tree/main/Docs).
@@ -159,9 +152,13 @@ A different photograph of Alaska is used as the background on this page. Overlai
 - *An asterisk indicates a required field
 ---
 ## Testing
+- You can view all test results for the site.
+![image of the header on a desktop](TESTING.md)
+
 ### Links, Images, Icons and Buttons:
 #### Links:
 - All the links are working an will take you to the correct page.
+
 #### Icons:
 - All the external links are working and will open a new tab and take you to the correct page. 
 - All the internal links are working and will take you to the correct page. 
