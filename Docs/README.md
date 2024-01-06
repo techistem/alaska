@@ -106,8 +106,24 @@ The wireframes should not be considered finished product, but as a tool I used a
 - The website is using the same color and font throughout the entire site to make it easy to read and understand, no matter where you are. 
 - ### Header
     - The header is the same on all pages.
-    - The header is the same on all devices above 490px. Under 769px the header becomes a column instead. 
+    - The header is the same on all devices above 768px. Under 768px the header becomes a column instead. 
+    - The header is a sticky header, meaning it will stay at the top of the screen even if you scroll down.
+    - The header is responsive on all devices.
+    - When you hover over the links in the header, the text is underlined.
 - ### Header on desktop:
 ![image of the header on a desktop](/Docs/wireframes/header-desktop.png)
+
  - ### Header on a phone:
     ![image of the header on a desktop](/Docs/wireframes/header-phone.png)
+
+- ### Footer
+    - The footer is the same on all pages.
+    - The footer is the same on all devices.
+    - The footer will always be on the bottom of the page, even if you scroll up. 
+    - The footer has links to social media platforms.
+    - All the links are working and will open a new window when clicked.
+- ### Footer on desktop:
+    ![image of the header on a desktop](/Docs/wireframes/footer-desktop.png)
+
+- ### Footer on a phone:
+    ![image of the header on a desktop](/Docs/wireframes/footer-phone.png)
