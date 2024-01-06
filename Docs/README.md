@@ -77,3 +77,18 @@ living abroad.
     - #e2435d
 --- 
 
+## Typography
+- Font
+    - The main font used in the project is the Roboto font from googlefonts.
+    - The fallback font is sans-serif. 
+ ---
+
+## Wireframes (Balsamiq)
+
+I created the wireframes for this site with Balsamiq. All wireframes can be found in the folder called [Docs](https://github.com/gStarhigh/pro1/tree/main/assets/balsamiq).
+The wireframes should not be considered finished product, but as a tool I used as inspiration when creating the website.
+
+
+![Wireframe of the website on a desktop](/assets/balsamiq/index-balsamic.png)
+![Wireframe of the website on a phone](/assets/balsamiq/index-phone-balsamic1.png)
+---
