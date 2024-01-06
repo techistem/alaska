@@ -85,10 +85,10 @@ living abroad.
 
 ## Wireframes (Balsamiq)
 
-I created the wireframes for this site with Balsamiq. All wireframes can be found in the folder called [Docs](https://github.com/gStarhigh/pro1/tree/main/assets/balsamiq).
+I created the wireframes for this site with Balsamiq. All wireframes can be found in the folder called [Docs](https://github.com/techistem/alaska2/tree/main/Docs).
 The wireframes should not be considered finished product, but as a tool I used as inspiration when creating the website.
 
 
-![Wireframe of the website on a desktop](/assets/balsamiq/index-balsamic.png)
-![Wireframe of the website on a phone](/assets/balsamiq/index-phone-balsamic1.png)
+![Wireframe of the website on a desktop](/assets/docs/images/index-balsamic.png)
+![Wireframe of the website on a phone](/assets/docs/images/index-phone-balsamic1.png)
 ---
