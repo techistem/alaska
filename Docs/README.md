@@ -153,7 +153,7 @@ A different photograph of Alaska is used as the background on this page. Overlai
 ---
 ## Testing
 - You can view all test results for the site.
-![image of the header on a desktop](TESTING.md)
+![TESTING.md](../docs/TESTING.md)
 
 ### Links, Images, Icons and Buttons:
 #### Links:
